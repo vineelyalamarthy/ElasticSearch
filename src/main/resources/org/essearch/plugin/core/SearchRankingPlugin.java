@@ -1,6 +1,9 @@
 package org.essearch.plugin.core;
 
-public class SearchRankingPlugin {
+import org.elasticsearch.plugins.AbstractPlugin;
+
+
+public class SearchRankingPlugin extends AbstractPlugin {
 	
 	 @Override public String name() {
 	        return "searchrankingplugin";
