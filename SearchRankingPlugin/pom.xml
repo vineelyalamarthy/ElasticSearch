@@ -17,7 +17,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
+	    <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
             <version>${elasticsearch.version}</version>
@@ -38,8 +38,15 @@
            <artifactId>opennlp-maxent</artifactId>
            <version>3.0.3</version>
        </dependency>
-    </dependencies>
+	   <dependency>
+        <artifactId>opennlp-similarity</artifactId>
+        <groupId>org.opennlp.tools</groupId>
+        <version>0.0.5</version>
+        <systemPath>${basedir}/lib/opennlp-similarity-0.0.5.jar</systemPath>
+        <scope>system</scope>
+     </dependency>
 
+    </dependencies>
     <build>
         <plugins>
             <plugin>
