@@ -1,0 +1,3 @@
+org\elasticsearch\plugin\example\SearchRankingPlugin.class
+org\elasticsearch\plugin\example\ExampleRestModule.class
+org\elasticsearch\plugin\example\HelloRestHandler.class
