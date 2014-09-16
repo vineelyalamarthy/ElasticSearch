@@ -28,5 +28,20 @@ This can be used to re-rank the search results in Elastic Search
     
     Execute the below command now.It should load the SearchRankingPlugin .
     
+2.  How to validate this plugin for now ? 
+
+    Install POSTMAN (this is a REST CLIENT for Chrome)
+    
+    Now using POSTMAN , send this HTTP request.. 
+    
+    http://localhost:9200/_hello.  Then the out-put will be Hello, world!
+    
+    Send this HPPT request .http://localhost:9200/_hello?who=BorisVineel .Output will be Hello BorisVineel! 
+    
+
+
+
+     
+    
     
     
