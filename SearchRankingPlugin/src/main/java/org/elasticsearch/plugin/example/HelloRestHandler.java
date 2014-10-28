@@ -13,7 +13,6 @@ public class HelloRestHandler implements RestHandler {
         restController.registerHandler(GET, "/_hello", this);
     }
 
-    @Override
     public void handleRequest(final RestRequest request, final RestChannel channel) {
         String who = request.param("who");
         String whoSafe = (who!=null) ? who : "world";
