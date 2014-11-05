@@ -5,6 +5,7 @@ import org.elasticsearch.common.inject.AbstractModule;
 public class ExampleRestModule extends AbstractModule {
     @Override
     protected void configure() {
-        bind(HelloRestHandler.class).asEagerSingleton();
+        //bind(HelloRestHandler.class).asEagerSingleton();
+    	bind(SearchRankingRestHandler.class).asEagerSingleton();
     }
 }
